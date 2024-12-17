@@ -1,6 +1,14 @@
-#include<iostream>
+#include <iostream>
+
 int main()
 {
-  std::cout << "Hello World";
+
+  int x = 10;
+  char c = 'A';
+  double d = 34.56;
+
+  std::cout << x << " " << d << "\n ";
+  std::cout << "My favorite number is " << x << std::endl;
+
   return 0;
 }
