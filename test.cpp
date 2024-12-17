@@ -1,14 +1,14 @@
 #include <iostream>
+using namespace std;
 
 int main()
 {
+  int x;
+  char c;
+  cin >> x >> c;
+  int y = 65;
 
-  int x = 10;
-  char c = 'A';
-  double d = 34.56;
-
-  std::cout << x << " " << d << "\n ";
-  std::cout << "My favorite number is " << x << std::endl;
+  cout << x << " " << c << " " << (char)y << endl;
 
   return 0;
 }
